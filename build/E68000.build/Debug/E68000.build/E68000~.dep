@@ -1,0 +1,15 @@
+29b112104270675ba7b74a535697a8bb a8e6f14f21c4a6478ad13621646dee88 ffffffffffffffffffffffffffffffff 102 /Users/Laurent/Documents/XCode/E68000/build/Debug/E68000.app
+1d46ca28af09d52e8a32bf77b4c5842f 6862959b307622a8e2d8ed5bf4f46e80 ffffffffffffffffffffffffffffffff 112328 /Users/Laurent/Documents/XCode/E68000/build/Debug/E68000.app/Contents/MacOS/E68000
+1b78c701614d2d405b6a00104bac2ae6 519112a2d6191b4cedd05aaa48ef3afd ffffffffffffffffffffffffffffffff 30136 /Users/Laurent/Documents/XCode/E68000/build/E68000.build/Debug/E68000.build/Objects-normal/i386/Wnd68000.o
+1b78c7012e26dacb5b6a00104bac5583 ffc2d9ac0d595c064bbb18efaa6a7d15 ffffffffffffffffffffffffffffffff 12996 /Users/Laurent/Documents/XCode/E68000/build/E68000.build/Debug/E68000.build/Objects-normal/i386/AtariST.o
+1b78c7012f7da12e5b6a00104bac0253 710931341de8ce86ed64658850ffff83 ffffffffffffffffffffffffffffffff 21180 /Users/Laurent/Documents/XCode/E68000/build/E68000.build/Debug/E68000.build/Objects-normal/i386/CPU.o
+1b78c7016014a0805b6a00104bac2605 26a936e8180c7a221e9468fc45a1c49b ffffffffffffffffffffffffffffffff 27924 /Users/Laurent/Documents/XCode/E68000/build/E68000.build/Debug/E68000.build/Objects-normal/i386/CoreMMU.o
+1b78c7016017858b5b6a00104bad0486 5218a465e4dcb63dcee6149958016a92 ffffffffffffffffffffffffffffffff 124020 /Users/Laurent/Documents/XCode/E68000/build/E68000.build/Debug/E68000.build/Objects-normal/i386/CoreInstructions.o
+1b78c701614d27615b6a00104bac8185 6d15f1560e093ead680e285f5c335a53 ffffffffffffffffffffffffffffffff 45140 /Users/Laurent/Documents/XCode/E68000/build/E68000.build/Debug/E68000.build/Objects-normal/i386/Core.o
+1b78c701600c2fac5b6a00104bac5b39 c0c094c8f6a050c5222bcc900c8048b9 ffffffffffffffffffffffffffffffff 4832 /Users/Laurent/Documents/XCode/E68000/build/E68000.build/Debug/E68000.build/Objects-normal/i386/main.o
+ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff 34644756 /var/folders/Iv/IvrnOfGsGVaO0GzAdbaOaU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/E68000_Prefix-cpjytfbibeiydccbkzfeetamfjup/E68000_Prefix.pch.gch
+00000000000000000000000000000000 bdcf64a5e43b6842d8cc0bc0cdb8d996 ffffffffffffffffffffffffffffffff 196608 /Users/Laurent/Documents/XCode/E68000/build/Debug/E68000.app/Contents/Resources/tos102fr.img
+000000004e424e0500000000000366e0 619d1db3b4890f41978c86bcfa96bfbc ffffffffffffffffffffffffffffffff 45216 /Users/Laurent/Documents/XCode/E68000/build/Debug/E68000.app/Contents/Resources/English.lproj/MainMenu.nib
+000000004e2af430000000000000005c 80c734b58dd54deb801d9503218b4282 ffffffffffffffffffffffffffffffff 92 /Users/Laurent/Documents/XCode/E68000/build/Debug/E68000.app/Contents/Resources/English.lproj/InfoPlist.strings
+00000000000000000000000000000000 88bcc2a36f9505bf3d41093469a81903 ffffffffffffffffffffffffffffffff 8 /Users/Laurent/Documents/XCode/E68000/build/Debug/E68000.app/Contents/PkgInfo
+00000000000000000000000000000000 88bcc2a36f9505bf3d41093469a81903 ffffffffffffffffffffffffffffffff 766 /Users/Laurent/Documents/XCode/E68000/build/Debug/E68000.app/Contents/Info.plist

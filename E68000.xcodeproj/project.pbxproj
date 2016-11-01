@@ -1,0 +1,361 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
+		4D69BC6B13F3BF280077A6C2 /* ST4_4_HIGH.img in Resources */ = {isa = PBXBuildFile; fileRef = 4D69BC6913F3BF280077A6C2 /* ST4_4_HIGH.img */; };
+		4D69BC6C13F3BF280077A6C2 /* ST4_4_LOW.img in Resources */ = {isa = PBXBuildFile; fileRef = 4D69BC6A13F3BF280077A6C2 /* ST4_4_LOW.img */; };
+		4D69F31513ED247B00AB8DE4 /* AtariST.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D69F31413ED247B00AB8DE4 /* AtariST.m */; };
+		4D69F34713ED269500AB8DE4 /* Wnd68000.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D69F34613ED269500AB8DE4 /* Wnd68000.m */; };
+		4DB7C2C813DBF48400EF7ABC /* Core.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB7C2C713DBF48400EF7ABC /* Core.m */; };
+		4DC880F413E0B6ED00DBC5E7 /* tos102fr.img in Resources */ = {isa = PBXBuildFile; fileRef = 4DC880F313E0B6ED00DBC5E7 /* tos102fr.img */; };
+		4DE9179913DDFD8300391067 /* CoreInstructions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE9179613DDFD8300391067 /* CoreInstructions.m */; };
+		4DE9179A13DDFD8300391067 /* CoreMMU.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE9179813DDFD8300391067 /* CoreMMU.m */; };
+		4DE91A0213DE149C00391067 /* CPU.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE91A0113DE149C00391067 /* CPU.m */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		1DDD58150DA1D0A300B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32CA4F630368D1EE00C91783 /* E68000_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = E68000_Prefix.pch; sourceTree = "<group>"; };
+		4D42D01713DB32E1003AC346 /* MC68000Global.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MC68000Global.h; sourceTree = "<group>"; };
+		4D69BC6913F3BF280077A6C2 /* ST4_4_HIGH.img */ = {isa = PBXFileReference; lastKnownFileType = file; path = ST4_4_HIGH.img; sourceTree = "<group>"; };
+		4D69BC6A13F3BF280077A6C2 /* ST4_4_LOW.img */ = {isa = PBXFileReference; lastKnownFileType = file; path = ST4_4_LOW.img; sourceTree = "<group>"; };
+		4D69F31213ED242000AB8DE4 /* CPUInstructionsMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPUInstructionsMap.h; sourceTree = "<group>"; };
+		4D69F31413ED247B00AB8DE4 /* AtariST.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AtariST.m; sourceTree = "<group>"; };
+		4D69F31713ED24D900AB8DE4 /* AtariST.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AtariST.h; sourceTree = "<group>"; };
+		4D69F34513ED269500AB8DE4 /* Wnd68000.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Wnd68000.h; sourceTree = "<group>"; };
+		4D69F34613ED269500AB8DE4 /* Wnd68000.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Wnd68000.m; sourceTree = "<group>"; };
+		4DB7C2C613DBF48400EF7ABC /* Core.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Core.h; sourceTree = "<group>"; };
+		4DB7C2C713DBF48400EF7ABC /* Core.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Core.m; sourceTree = "<group>"; };
+		4DC880F313E0B6ED00DBC5E7 /* tos102fr.img */ = {isa = PBXFileReference; lastKnownFileType = file; path = tos102fr.img; sourceTree = "<group>"; };
+		4DE9179513DDFD8300391067 /* CoreInstructions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreInstructions.h; sourceTree = "<group>"; };
+		4DE9179613DDFD8300391067 /* CoreInstructions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreInstructions.m; sourceTree = "<group>"; };
+		4DE9179713DDFD8300391067 /* CoreMMU.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreMMU.h; sourceTree = "<group>"; };
+		4DE9179813DDFD8300391067 /* CoreMMU.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreMMU.m; sourceTree = "<group>"; };
+		4DE91A0013DE149C00391067 /* CPU.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPU.h; sourceTree = "<group>"; };
+		4DE91A0113DE149C00391067 /* CPU.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPU.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* E68000.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = E68000.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4D6A9B6513EEF371006A8D96 /* Computer */,
+				4D69F34413ED266700AB8DE4 /* GUI */,
+				4D42D01113DB2BC0003AC346 /* MC68000 */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* E68000.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* E68000 */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = E68000;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* E68000_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4D69BC6913F3BF280077A6C2 /* ST4_4_HIGH.img */,
+				4D69BC6A13F3BF280077A6C2 /* ST4_4_LOW.img */,
+				4DC880F313E0B6ED00DBC5E7 /* tos102fr.img */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4D42D01113DB2BC0003AC346 /* MC68000 */ = {
+			isa = PBXGroup;
+			children = (
+				4D69F31213ED242000AB8DE4 /* CPUInstructionsMap.h */,
+				4DE9179513DDFD8300391067 /* CoreInstructions.h */,
+				4DE9179613DDFD8300391067 /* CoreInstructions.m */,
+				4DE9179713DDFD8300391067 /* CoreMMU.h */,
+				4DE9179813DDFD8300391067 /* CoreMMU.m */,
+				4D42D01713DB32E1003AC346 /* MC68000Global.h */,
+				4DB7C2C613DBF48400EF7ABC /* Core.h */,
+				4DB7C2C713DBF48400EF7ABC /* Core.m */,
+				4DE91A0013DE149C00391067 /* CPU.h */,
+				4DE91A0113DE149C00391067 /* CPU.m */,
+			);
+			name = MC68000;
+			sourceTree = "<group>";
+		};
+		4D69F34413ED266700AB8DE4 /* GUI */ = {
+			isa = PBXGroup;
+			children = (
+				4D69F34513ED269500AB8DE4 /* Wnd68000.h */,
+				4D69F34613ED269500AB8DE4 /* Wnd68000.m */,
+			);
+			name = GUI;
+			sourceTree = "<group>";
+		};
+		4D6A9B6513EEF371006A8D96 /* Computer */ = {
+			isa = PBXGroup;
+			children = (
+				4D69F31713ED24D900AB8DE4 /* AtariST.h */,
+				4D69F31413ED247B00AB8DE4 /* AtariST.m */,
+			);
+			name = Computer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* E68000 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "E68000" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = E68000;
+			productInstallPath = "$(HOME)/Applications";
+			productName = E68000;
+			productReference = 8D1107320486CEB800E47090 /* E68000.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "E68000" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* E68000 */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* E68000 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
+				4DC880F413E0B6ED00DBC5E7 /* tos102fr.img in Resources */,
+				4D69BC6B13F3BF280077A6C2 /* ST4_4_HIGH.img in Resources */,
+				4D69BC6C13F3BF280077A6C2 /* ST4_4_LOW.img in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				4DB7C2C813DBF48400EF7ABC /* Core.m in Sources */,
+				4DE9179913DDFD8300391067 /* CoreInstructions.m in Sources */,
+				4DE9179A13DDFD8300391067 /* CoreMMU.m in Sources */,
+				4DE91A0213DE149C00391067 /* CPU.m in Sources */,
+				4D69F31513ED247B00AB8DE4 /* AtariST.m in Sources */,
+				4D69F34713ED269500AB8DE4 /* Wnd68000.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1DDD58140DA1D0A300B32029 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDD58150DA1D0A300B32029 /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = E68000_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = E68000;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = E68000_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = E68000;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.12;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.12;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "E68000" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "E68000" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
